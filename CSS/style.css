@@ -1,0 +1,49 @@
+.beckground {
+  width: 100%;
+	position: relative;
+}
+
+ .SpongeBob {
+   position: absolute;
+   width: 190px;
+   bottom: 45px;
+   right: 330px;
+   animation: suspension 1s linear infinite;
+}
+
+.PatrickStar {
+  width: 210px;
+	position: absolute;
+	bottom: 90px;
+	left: 90px;
+  animation: spiner 2s infinite;
+}
+
+.boat{
+	width: 290px;
+	position: absolute;
+	bottom: -90px;
+	left: 20px;
+	animation: boat 10s linear infinite;
+	transition-timing-function: linear;
+}
+.Squidward {
+  width: 100px;
+  position: absolute;
+  bottom: 100px;
+  right: 970px;
+}
+.EvilPlankton {
+  position: absolute;
+  width: 190px;
+  bottom: 519px;
+  right: 160px;
+  animation: suspension 0.4s linear infinite;
+}
+.fishinghook {
+  position: absolute;
+  width: 110px;
+  bottom: 519px;
+  right: 600px;
+  animation: hook 3s linear infinite;
+}
